@@ -1,0 +1,141 @@
+
+/*my styles*/
+
+body {
+  background: #000;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+  color: #efefef;
+}
+
+a:visited {
+  color: #efefef;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+header {
+  min-height: 80px;
+  max-height: 160px;
+  padding: 20px 60px;
+  color: #efefef;
+}
+
+header div.center {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  padding-left: 50px;
+}
+
+nav a h5 {
+  color: #efefef;
+  margin: 10px 0;
+}
+
+img.center {
+  margin: 0 auto;
+}
+
+div.leftArrowTop {
+  float: left;
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+div.leftArrow {
+  float: left;
+  display: block;
+}
+
+div.leftArrowBottom {
+  float: left;
+  display: block;
+}
+div.rightArrowTop {
+  float: left;
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+div.rightArrow {
+  float: left;
+  display: block;
+}
+
+div.rightArrowBottom {
+  float: left;
+  display: block;
+}
+
+footer {
+  min-height: 80px;
+  max-height: 160px;
+  padding: 20px 60px;
+  color: #efefef;
+}
+
+footer div.center {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer a h5 {
+  color: #efefef;
+  margin: 10px 0;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+
+@media (min-width: 1400px) {
+
+}
+
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1450px;
+  }
+}
